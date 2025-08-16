@@ -42,6 +42,13 @@
 #define ICON_FA_ARROW_ALT_CIRCLE_LEFT "\xef\x8d\x99"	// U+f359
 #define ICON_FA_ARROW_ALT_CIRCLE_RIGHT "\xef\x8d\x9a"	// U+f35a
 #define ICON_FA_ARROW_ALT_CIRCLE_UP "\xef\x8d\x9b"	// U+f35b
+
+// Added diagonals
+#define ICON_FA_ARROW_ALT_CIRCLE_UPRIGHT "\xef\x8d\x9c"	// U+f35c
+#define ICON_FA_ARROW_ALT_CIRCLE_UPLEFT "\xef\x8d\x9d"	// U+f35d
+#define ICON_FA_ARROW_ALT_CIRCLE_DOWNRIGHT "\xef\x8d\x9e"	// U+f35e
+#define ICON_FA_ARROW_ALT_CIRCLE_DOWNLEFT "\xef\x8d\x9f"	// U+f35f
+
 #define ICON_FA_ARROW_CIRCLE_DOWN "\xef\x82\xab"	// U+f0ab
 #define ICON_FA_ARROW_CIRCLE_LEFT "\xef\x82\xa8"	// U+f0a8
 #define ICON_FA_ARROW_CIRCLE_RIGHT "\xef\x82\xa9"	// U+f0a9
@@ -50,6 +57,13 @@
 #define ICON_FA_ARROW_LEFT "\xef\x81\xa0"	// U+f060
 #define ICON_FA_ARROW_RIGHT "\xef\x81\xa1"	// U+f061
 #define ICON_FA_ARROW_UP "\xef\x81\xa2"	// U+f062
+
+// Added diagonals
+#define ICON_FA_ARROW_UPRIGHT "\xef\x81\xbd"	// U+f07d
+#define ICON_FA_ARROW_UPLEFT "\xef\x81\xbe"	// U+f07e
+#define ICON_FA_ARROW_DOWNRIGHT "\xef\x81\xbf"	// U+f07f
+#define ICON_FA_ARROW_DOWNLEFT "\xef\x82\x81"	//U+f081
+
 #define ICON_FA_ARROWS_ALT "\xef\x82\xb2"	// U+f0b2
 #define ICON_FA_ARROWS_ALT_H "\xef\x8c\xb7"	// U+f337
 #define ICON_FA_ARROWS_ALT_V "\xef\x8c\xb8"	// U+f338
@@ -318,7 +332,10 @@
 #define ICON_FA_EXPAND "\xef\x81\xa5"	// U+f065
 #define ICON_FA_EXPAND_ALT "\xef\x90\xa4"	// U+f424
 #define ICON_FA_EXPAND_ARROWS_ALT "\xef\x8c\x9e"	// U+f31e
-#define ICON_FA_EXTERNAL_LINK_ALT "\xef\x8d\x9d"	// U+f35d
+
+// removed for diagonals
+//#define ICON_FA_EXTERNAL_LINK_ALT "\xef\x8d\x9d"	// U+f35d
+
 #define ICON_FA_EXTERNAL_LINK_SQUARE_ALT "\xef\x8d\xa0"	// U+f360
 #define ICON_FA_EYE "\xef\x81\xae"	// U+f06e
 #define ICON_FA_EYE_DROPPER "\xef\x87\xbb"	// U+f1fb
@@ -1015,7 +1032,6 @@
 #define ICON_FA_YEN_SIGN "\xef\x85\x97"	// U+f157
 #define ICON_FA_YIN_YANG "\xef\x9a\xad"	// U+f6ad
 
-
 namespace FontAwesome
 {
 	static std::vector<std::string> Icons= 
@@ -1050,6 +1066,14 @@ namespace FontAwesome
 	"\xef\x8d\x99",
 	"\xef\x8d\x9a",
 	"\xef\x8d\x9b",
+
+
+	"\xef\x8d\x9c",
+	"\xef\x8d\x9d",
+	"\xef\x8d\x9e",
+	"\xef\x8d\x9f",
+
+
 	"\xef\x82\xab",
 	"\xef\x82\xa8",
 	"\xef\x82\xa9",
@@ -1058,6 +1082,7 @@ namespace FontAwesome
 	"\xef\x81\xa0",
 	"\xef\x81\xa1",
 	"\xef\x81\xa2",
+
 	"\xef\x82\xb2",
 	"\xef\x8c\xb7",
 	"\xef\x8c\xb8",
@@ -1327,6 +1352,14 @@ namespace FontAwesome
 	"\xef\x90\xa4",
 	"\xef\x8c\x9e",
 	"\xef\x8d\x9d",
+
+
+"\xef\x81\xbd",
+"\xef\x81\xbe",
+"\xef\x81\xbf",
+"\xef\x82\x81",
+
+
 	"\xef\x8d\xa0",
 	"\xef\x81\xae",
 	"\xef\x87\xbb",
