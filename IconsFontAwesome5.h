@@ -1034,7 +1034,8 @@
 
 namespace FontAwesome
 {
-	static std::vector<std::string> Icons= 
+	// TODO: Remove
+	static std::array<std::string, 1016> Icons= 
 	{
 	"\xef\x99\x81",
 	"\xef\x8a\xb9",
