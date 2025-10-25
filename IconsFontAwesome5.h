@@ -1034,8 +1034,7 @@
 
 namespace FontAwesome
 {
-	// TODO: Remove
-	static std::array<std::string, 1016> Icons= 
+	static std::vector<std::string> Icons= 
 	{
 	"\xef\x99\x81",
 	"\xef\x8a\xb9",
@@ -1068,12 +1067,10 @@ namespace FontAwesome
 	"\xef\x8d\x9a",
 	"\xef\x8d\x9b",
 
-
 	"\xef\x8d\x9c",
 	"\xef\x8d\x9d",
 	"\xef\x8d\x9e",
 	"\xef\x8d\x9f",
-
 
 	"\xef\x82\xab",
 	"\xef\x82\xa8",
@@ -1083,6 +1080,8 @@ namespace FontAwesome
 	"\xef\x81\xa0",
 	"\xef\x81\xa1",
 	"\xef\x81\xa2",
+
+
 
 	"\xef\x82\xb2",
 	"\xef\x8c\xb7",
@@ -1352,14 +1351,11 @@ namespace FontAwesome
 	"\xef\x81\xa5",
 	"\xef\x90\xa4",
 	"\xef\x8c\x9e",
-	"\xef\x8d\x9d",
-
 
 "\xef\x81\xbd",
 "\xef\x81\xbe",
 "\xef\x81\xbf",
 "\xef\x82\x81",
-
 
 	"\xef\x8d\xa0",
 	"\xef\x81\xae",
